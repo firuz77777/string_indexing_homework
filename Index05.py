@@ -6,4 +6,5 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a = len(s) -1
+    return a
