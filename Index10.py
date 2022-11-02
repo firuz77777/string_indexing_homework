@@ -6,11 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    x1 = s[0]
-    x2 = s[1]
-    x3 = s[2]
-    x4 = s[3]
-    x5 = s[4]
-    a = f'{x1+x2+x3+x4+x5}'
+    x1 = int(s[0])
+    x2 = int(s[1])
+    x3 = int(s[2])
+    x4 = int(s[3])
+    x5 = int(s[4])
+    a = x1 + x2 + x3 + x4 + x5
     return a
 print(main("23532"))
