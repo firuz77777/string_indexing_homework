@@ -6,4 +6,10 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    a=0
+    if type(s)==str:
+        a = n
+    else :
+        a = False
+    return a
+print(main('ok','ko'))
